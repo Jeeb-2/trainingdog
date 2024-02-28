@@ -258,7 +258,6 @@ li {
   font-weight: 700;
   border-radius: 50px;
   background-color: #020202;
-  border: 2px solid #cd171f;
 }
 
 .btn-style-two:hover {
@@ -650,7 +649,7 @@ img {
 .main-menu .navigation > li > a {
   position: relative;
   display: block;
-  font-size: 16px;
+  font-size: 20px;
   color: #222222;
   line-height: 30px;
   font-weight: 700;
@@ -1650,7 +1649,7 @@ img {
 
 .welcome-section {
   position: relative;
-  padding: 75px 0px;
+  padding: 35px 0px;
 }
 
 .welcome-section .image-column {
@@ -1915,7 +1914,7 @@ img {
 
 .appointment-section {
   position: relative;
-  padding: 85px 0px 100px;
+  padding: 20px 0px 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background: #cd171f;
@@ -2507,7 +2506,7 @@ img {
 
 .testimonial-section {
   position: relative;
-  padding: 75px 0px 90px;
+  padding: 0px 0px 40px;
 }
 
 .testimonial-block {
@@ -2651,7 +2650,7 @@ img {
 
 .news-section {
   position: relative;
-  padding: 80px 0px 90px;
+  padding: 20px 0px 50px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3230,7 +3229,7 @@ img {
 
 .services-section-three {
   position: relative;
-  padding-top: 90px;
+  padding-top: 10px;
   background-color: #f6f6f6;
 }
 
@@ -3288,8 +3287,8 @@ img {
 
 .services-block-three .inner-box .text {
   position: relative;
-  color: #444444;
-  font-size: 14px;
+  color: #000000;
+  font-size: 16px;
   line-height: 1.8em;
   margin-bottom: 12px;
 }
@@ -3349,8 +3348,8 @@ img {
 
 .services-block-four .inner-box .text {
   position: relative;
-  color: #444444;
-  font-size: 14px;
+  color: #000000;
+  font-size: 16px;
   line-height: 1.8em;
   margin-bottom: 12px;
 }
@@ -4537,7 +4536,7 @@ img {
 
 .services-section-five {
   position: relative;
-  padding: 80px 0px 40px;
+  padding: 30px 0px 30px;
   background-repeat: no-repeat;
   background-color: #f3f3f3;
 }
@@ -7450,16 +7449,16 @@ a.color-primary {
 
 .horizontal-tabs .nav-tabs .nav-item {
   margin-bottom: 0;
-  width: 50%;
+  width: 100%;
 }
 
 .horizontal-tabs .nav-tabs .nav-item .nav-link {
   border: 0;
   padding: 20px 10px;
-  background-color: #f9f9f9;
-  font-size: 1.28571em;
+  background-color: #cd171f;
+  font-size: 2.28571em;
   font-weight: 700;
-  color: #f1ae4a;
+  color: #ffffff;
   border-radius: 0;
   text-align: center;
   line-height: 1;
@@ -7510,12 +7509,21 @@ a.color-primary {
 
 .horizontal-tabs .tab-content .tab-pane p {
   margin-bottom: 30px;
+  color: #000000;
+  font-size: 19px;
+}
+
+.blodText li {
+  font-size: 19px;
+  color: #000000;
 }
 
 .horizontal-tabs .tab-content .tab-pane .unorder-list li {
   padding-left: 21px;
   margin-bottom: 15px;
-  color: #777;
+  color: #000000;
+  font-size: 19px;
+  font-style: italic;
 }
 
 .horizontal-tabs .tab-content .tab-pane .unorder-list li:last-child {
@@ -8290,7 +8298,7 @@ ul.detail-footer-social li a i {
 
 .about-faq-section {
   background: #f8f8f8;
-  padding: 150px 0;
+  padding: 40px 0;
 }
 /* ----------------------> Service Tab <--------------------- */
 .services-section {
@@ -8305,6 +8313,11 @@ ul.detail-footer-social li a i {
   cursor: pointer;
   text-align: center;
   background-color: #e7e7e7;
+  color: #000;
+}
+
+.services-section .accrodion-grp .accrodion .accrodion-title h4 {
+  font-size: 30px;
 }
 
 .services-section .accrodion-grp .accrodion {
@@ -8318,8 +8331,8 @@ ul.detail-footer-social li a i {
 
 .services-section .accrodion-grp .accrodion .accrodion-content {
   padding: 20px 0 23px;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
 }
 
 /* ----------------------> Service Tab <--------------------- */
@@ -8924,7 +8937,6 @@ p {
   font-weight: 700;
   border-radius: 10px;
   background-color: #e2b61e;
-  border: 2px solid #e2b61e;
 }
 
 .header_btn a.btn-style-two:hover {

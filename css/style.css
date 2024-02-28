@@ -151,7 +151,14 @@ p,
   flex-direction: row;
   align-items: center;
 }
+.logo-container1 {
+  padding: 0 70px;
+  align-items: normal;
+}
 
+.logo-container1 h3{
+  color: #000;
+}
 .page-wrapper {
   position: relative;
   margin: 0 auto;

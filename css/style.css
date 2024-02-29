@@ -156,7 +156,7 @@ p,
   align-items: normal;
 }
 
-.logo-container1 h3{
+.logo-container1 h3 {
   color: #000;
 }
 .page-wrapper {
@@ -4446,7 +4446,7 @@ img {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.489);
 }
 
 .page-title h1 {
@@ -9287,6 +9287,13 @@ p {
   line-height: 2;
 }
 
+.servi-title h2 {
+  font-size: 28px;
+  color: #cd171f;
+}
+.servi-title{
+  margin-bottom: 15px;
+}
 .info-widget .margin_btm {
   margin-bottom: 20px;
   padding: 0;

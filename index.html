@@ -92,7 +92,7 @@
                                     <li class="current"><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="services.html">Services</a></li>
-                                    <li class="logo second-logo" style="width: 10%;"><a href="index.html"><img
+                                    <li class="monlogo"><a href="index.html"><img
                                                 src="images/logo.png" alt="" title=""></a></li>
                                     <!-- <li><a href="shop.html">Shop</a></li> -->
                                     <li><a href="#">Gallery</a>
@@ -1041,11 +1041,14 @@
     <script>
         window.addEventListener('scroll', function () {
             var navbar = document.querySelector('.main-header');
+            var smalllogo = document.querySelector('.monlogo');
 
             if (window.scrollY > 0) {
                 navbar.classList.add('small');
+                smalllogo.classList.add('small');
             } else {
                 navbar.classList.remove('small');
+                smalllogo.classList.remove('small');
             }
         });
 

@@ -9291,7 +9291,7 @@ p {
   font-size: 28px;
   color: #cd171f;
 }
-.servi-title{
+.servi-title {
   margin-bottom: 15px;
 }
 .info-widget .margin_btm {
@@ -14794,8 +14794,15 @@ p {
   opacity: 1;
 }
 
+.monlogo {
+  width: 10%;
+}
 .small .main-menu {
   height: 5%; /* Hauteur réduite de la barre de navigation, ajustez selon vos besoins */
+}
+
+.small .monlogo {
+  width: 5%;
 }
 
 .small .navigation li a {

@@ -1528,7 +1528,7 @@ img {
 
 .main-slider h2 {
   position: relative;
-  color: #222222;
+  color: #ffffff;
   font-size: 60px;
   font-weight: 400;
   line-height: 1.2em;
@@ -1549,7 +1549,7 @@ img {
   position: relative;
   font-size: 20px;
   font-weight: 400;
-  color: #222222;
+  color: #ffffff;
   line-height: 1.6em;
 }
 
@@ -8845,7 +8845,7 @@ p {
 }
 
 .gallery-thumb .overlayer {
-  background-color: rgba(231, 71, 12, 0.75);
+  background-color: #cd171fa6;
 }
 
 .lbox-caption a {
@@ -8974,7 +8974,7 @@ p {
 
 .main-slider h2 {
   position: relative;
-  color: #222222;
+  color: #ffffff;
   font-size: 52px;
   font-weight: 400;
   line-height: 1.2em;
@@ -14814,4 +14814,7 @@ p {
 }
 .small .header-top {
   font-size: 6px;
+}
+.page-title .clearfix {
+  padding: 120px 0;
 }

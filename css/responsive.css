@@ -131,6 +131,9 @@
   span .fa-bars {
     display: none;
   }
+  .monlogo {
+    display: block;
+  }
 }
 
 /*@media(max-width: 1060px){

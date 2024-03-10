@@ -1497,8 +1497,10 @@ img {
 ***/
 
 .main-slider {
-  position: relative;
+  /* position: absolute; */
+  /* top: 70px; */
   z-index: 10;
+  display: inline-block;
 }
 
 .main-slider .tp-caption {
@@ -7508,7 +7510,6 @@ a.color-primary {
 }
 
 .horizontal-tabs .tab-content {
-  padding: 30px 30px;
   border: 1px solid #eaeaea;
   margin-right: 1px;
   margin-top: -1px;
@@ -14796,6 +14797,7 @@ p {
 
 .monlogo {
   width: 10%;
+  display: none;
 }
 .small .main-menu {
   height: 5%; /* Hauteur réduite de la barre de navigation, ajustez selon vos besoins */
@@ -14817,4 +14819,28 @@ p {
 }
 .page-title .clearfix {
   padding: 120px 0;
+}
+.horizontal-tabs .nav-tabs .nav-item .tab-btn {
+  border: 0;
+  padding: 20px 10px;
+  background-color: #1e1e1e;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 0;
+  text-align: center;
+  line-height: 1;
+  border-top: 5px solid transparent;
+  border-right: 1px solid white;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #eaeaea;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.horizontal-tabs .nav-tabs .nav-item .tab-btn:hover {
+  background-color: #cd171f;
+  color: #1e1e1e;
 }
